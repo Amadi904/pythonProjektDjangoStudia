@@ -22,4 +22,4 @@ class Migration(migrations.Migration):
     ]
 
 
-#SIEMA SIEMA
+#SIEMA SIEMA dfs
