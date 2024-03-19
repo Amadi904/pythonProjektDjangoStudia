@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zmień ustawienia</title>
+</head>
+<body>
+    <h2>Zmień ustawienia strony</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Zapisz zmiany</button>
+    </form>
+</body>
+</html>
